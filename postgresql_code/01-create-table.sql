@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS categories (
+	id serial PRIMARY KEY,
+	title VARCHAR (50) UNIQUE NOT NULL,
+	tree_id VARCHAR(50) NOT NULL,
+	parent_id INT DEFAULT NULL,
+	FOREIGN KEY (parent_id) REFERENCES categories (id)
+	 ON DELETE CASCADE ON UPDATE CASCADE
+);
