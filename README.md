@@ -11,9 +11,9 @@ The tree from the videos:
 stateDiagram-v2
     Fruits --> Apple
     Fruits --> Mango
-    Apple --> Green Apple
-    Apple --> Yellow Apple
-    Apple --> Red Apple
+    Apple --> Green_Apple
+    Apple --> Yellow_Apple
+    Apple --> Red_Apple
 ```
 
 <img src="./thumbnail.png" />
